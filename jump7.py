@@ -4,11 +4,12 @@ for i in range(1,101):
     else:
         print(i)
 
-a = 0
-while a < 100:
-    a += 1
+a = 1
+while a < 101:
     if a%7 == 0 or a%10 == 7 or a//10 ==7:
+        a += 1
         continue
     else:
-        print(a)
+       print(a)
+       a += 1
 
